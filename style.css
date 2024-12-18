@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #0038a8, #ffffff, #ce1126); /* Colors of the Philippines */
+  color: white;
+  position: relative;
+}
+
+/* Logo/Flag Styling */
+.flag-icon img {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+/* Navigation Styles */
+nav {
+  margin-right: 30px;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+
+}
+
+nav li a {
+  color: rgb(20, 15, 93);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fcd116; /* Gold color for hover effect */
+}
+
+/* Menu Icon Styling */
+.menu-icon {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+
